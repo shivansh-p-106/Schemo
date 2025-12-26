@@ -89,5 +89,18 @@ def apply_custom_styles():
         color: #ffffff !important; /* Pure White */
         font-weight: 700 !important;
 }
+
+    div[data-testid="stMarkdownContainer"] p, 
+    div[data-testid="stMarkdownContainer"] li {
+    word-break: break-word !important; 
+    overflow-wrap: break-word !important;
+    white-space: normal !important;
+}
+
+    div[data-testid="stVerticalBlock"] {
+    max-width: 100% !important;
+}
+
         </style>
+
     """, unsafe_allow_html=True)
