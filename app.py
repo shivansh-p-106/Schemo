@@ -52,7 +52,7 @@ if menu == "Home":
     st.markdown("---")
     st.subheader("📺 See How It Works (Demo Video)")
     
-    st.video("https://www.youtube.com/watch?v=uJXNupHFKwQ")
+    st.video("https://youtu.be/r7gTAwMdliw?si=VhkZcXxKaUdVHMUF")
    
 # ---------------------------------------------------------
 # PAGE: DETECT & GUIDE
@@ -137,5 +137,6 @@ elif menu == "Connect (Maps)":
 elif menu == "Track History":
     st.title("📜 Application History")
     st.info("Coming Soon: Save your recommended schemes here.")
+
 
 # code written by- Shivansh
